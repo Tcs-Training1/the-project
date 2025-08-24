@@ -6,16 +6,54 @@
 }
 header{
     display: flex;
+    gap: 40px;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 .headerleft {
     display:flex;
     align-items: center;
 }
 .logo{
-    padding: 20px;
+    padding: 24px 30px;
     border-right:1px solid #ccc;
 
 }
 .headeraddress{
-    padding: 20px;
+    padding: 20px 30px;
 }
+.headeraddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headeraddress p{
+    font-size: 14px;
+}
+.searchbox{
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #f4f4f4;
+}
+.searchbox button{
+   
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+}
+.searchbox input{
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+
+}
+.searchbox input:focus{
+    outline: none;
+}
+.headerbtn{
+    display: flex;
+    padding: 15px;
+}
+
