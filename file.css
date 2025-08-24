@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+.headerleft {
+    display:flex;
+    align-items: center;
+}
+.logo{
+    padding: 20px;
+    border-right:1px solid #ccc;
+
+}
+.headeraddress{
+    padding: 20px;
+}
