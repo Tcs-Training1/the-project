@@ -80,3 +80,17 @@ header{
     width: 100%;
 }
 
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 27%;
+    margin: 1%;
+    margin-top:1%;
+
+}
+.orderBannerItems img{
+    width: 100%;
+}

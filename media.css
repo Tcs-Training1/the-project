@@ -25,4 +25,7 @@
     justify-content: center;
     bottom: 0px;
   }
+  .bannerSection{
+    display: flex;
+  }
 }
