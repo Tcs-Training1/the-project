@@ -52,8 +52,28 @@ header{
 .searchbox input:focus{
     outline: none;
 }
+
 .headerbtn{
     display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+.headerbtn button{
+    font-size: 18px;
     padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+.headerbtn button:last-child{
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(12,131,31);
+
+}
+
+.bannerSection{
+    margin: auto;
+    max-width: 1280px;
 }
 

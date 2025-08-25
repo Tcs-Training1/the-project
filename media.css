@@ -17,4 +17,12 @@
   .searchbox button{
     padding: 10px;
   }
+
+  .headerbtn{
+    position: fixed;
+    width: 100%;
+    margin-right: 0px;
+    justify-content: center;
+    bottom: 0px;
+  }
 }
