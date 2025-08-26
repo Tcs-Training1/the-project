@@ -21,11 +21,20 @@
   .headerbtn{
     position: fixed;
     width: 100%;
+    background-color: white;
     margin-right: 0px;
     justify-content: center;
     bottom: 0px;
   }
   .bannerSection{
     display: flex;
+  }
+  .orderBanner{
+    padding: 10px;
+    flex-direction: column;
+
+  }
+  .categoryItems{
+    flex-basis: 25%;
   }
 }

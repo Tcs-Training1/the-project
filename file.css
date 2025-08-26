@@ -94,3 +94,15 @@ header{
 .orderBannerItems img{
     width: 100%;
 }
+.categorySection{
+    max-width: 1280px;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+}
+.categoryItems{
+    flex-basis: 10%;
+}
+.categoryItems img{
+    width: 100%;
+}
