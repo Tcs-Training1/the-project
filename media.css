@@ -37,5 +37,17 @@
   .categoryItems{
     flex-basis: 25%;
   }
-  
+  .productItems{
+    flex-basis: 49%;
+  }
+  .productSection{
+    padding:30px 10px
+  }
+  footer{
+    padding-top: 0px;
+  }
+  .footer-mid-row1{
+    padding: 10px;
+    flex-direction: column;
+  }
 }
